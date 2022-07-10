@@ -25,7 +25,7 @@ function checkForBingo(bingoCard, drawnNumbers) {
 	let drawnMap = {};
 
 	// loop through the drawn numbers to place them into the hashmap to check against
-	// ******* this will bring the final time complexity of the funtion to '0(n)'
+	// ******* this will bring the final time complexity of the funtion to 'O(n)'
 	for (let i = 0; i < drawnNumbers.length; i++) {
 		drawnMap[drawnNumbers[i]] = i;
 	}
